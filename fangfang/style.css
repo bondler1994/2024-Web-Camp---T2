@@ -1,3 +1,97 @@
 * {
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+header {
+    background-color: #535151;
+    font-family: 'Geologica', sans-serif;
+}
+
+.header_container {
     outline: 1px solid red;
+    width: 980px;
+    margin: 0 auto;
+    padding: 12px 0;
+    font-size: 0;
+    text-align-last: justify;
+
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+
+}
+
+.logo_link {
+    display: inline-block;
+}
+
+.logo_text {
+    color: #D2D2D2;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    /*全部字母大寫*/
+    font-weight: 600;
+}
+
+.logo_text:hover {
+    color: #fff;
+}
+
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu_list {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_item {
+    display: inline-block;
+}
+
+.menu_item>a {
+    display: inline-block;
+    color: #D2D2D2;
+    font-size: 18px;
+    padding: 25px;
+    text-transform: capitalize;
+    /*第一個字母大寫*/
+
+}
+
+.menu_item>a:hover {
+    color: #fff;
+}
+
+.shopping_bag_link {
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
+
+}
+
+.shopping_bag {
+    width: 100%;
+}
+
+section {
+    width: 1318px;
 }
