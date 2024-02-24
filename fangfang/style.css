@@ -19,7 +19,6 @@ header {
 }
 
 .header_container {
-    outline: 1px solid red;
     width: 980px;
     margin: 0 auto;
     padding: 12px 0;
@@ -63,6 +62,7 @@ header {
     padding: 0;
 }
 
+
 .menu_item {
     display: inline-block;
 }
@@ -77,13 +77,14 @@ header {
 
 }
 
-.menu_item>a:hover {
+.menu_item>a:hover,
+.menu_item .active {
     color: #fff;
 }
 
 .shopping_bag_link {
     display: inline-block;
-    width: 50px;
+    width: 40px;
     vertical-align: middle;
 
 }
@@ -92,6 +93,248 @@ header {
     width: 100%;
 }
 
-section {
-    width: 1318px;
+/*main*/
+/*section 1*/
+.banner {
+    background-image: url(./img/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.banner_text {
+    width: 580px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.5);
+    font-family: 'Libre Baskerville', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 16%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.banner_text>h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #313232;
+    margin-bottom: 30px;
+}
+
+.banner_button {
+    display: inline-block;
+    background-color: #303132;
+    color: #fff;
+    width: 223px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner_button:hover {
+    opacity: 0.8;
+}
+
+main>h3 {
+    margin: 0;
+    background-color: #E3E3E3;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 15px 0;
+    text-align: center;
+    color: #484848;
+}
+
+/*section 2*/
+.product_sale {
+    padding: 70px 0;
+}
+
+.product_sale_container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.product_sale_title {
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+
+.product_sale_title>h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.product_sale_title>p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+
+.product_sale_title>hr {
+    width: 35px;
+    height: 1px;
+    border-width: 0;
+    background-color: #6b6b6b;
+    margin: 40px auto;
+}
+
+
+.product_sale_list {
+    font-size: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align-last: justify;
+}
+
+
+.product_sale_item {
+    display: inline-block;
+    width: 315px;
+    height: 450px;
+
+}
+
+.product_sale_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.product_sale_item img:hover {
+    opacity: 0.8;
+}
+
+/*footer*/
+footer {
+    background-color: #535151;
+    padding: 72px 0;
+}
+
+.footer_container {
+    width: 980px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0;
+    padding: 0 44px;
+}
+
+.footer_information {
+    margin: 0 0 58px;
+    padding: 0;
+    list-style-type: none;
+    text-align-last: justify;
+}
+
+.footer_container>ul>li {
+    display: inline-block;
+}
+
+.footer_connected {
+    vertical-align: top;
+}
+
+
+.social_media {
+    text-align-last: justify;
+}
+
+.social_media_link {
+    font-size: 22px;
+    color: #fff;
+
+}
+
+
+.footer_form {
+    vertical-align: top;
+    width: 350px;
+}
+
+.footer_form>h4 {
+    text-align-last: left;
+}
+
+.footer_container>ul>li>h4 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    color: #D2D2D2;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer_input_email {
+    width: 100%;
+    background: none;
+    border: 2px solid #fff;
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+.footer_input_email:focus {
+    outline: 1px solid #faa;
+}
+
+.footer_input_email::placeholder {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer_update_button {
+    display: block;
+    margin-left: auto;
+    margin-top: 8px;
+    padding: 6px;
+    background-color: #D3D3D3;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+.footer_update_button:hover {
+    opacity: 0.8;
+}
+
+
+.footer_contact {
+    vertical-align: top;
+    text-align-last: center;
+}
+
+.footer_contact>a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+.copyright {
+    color: #D2D2D2;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
 }
