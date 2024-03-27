@@ -84,3 +84,60 @@ header {
     }
   }
 }
+
+main {
+  /* .banner::before {
+    clear: both;
+    content: "";
+    display: block;
+  } */
+
+  .banner {
+    .cover {
+      background-image: url("./img/cover.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 606px;
+      overflow: auto;
+      width: 100%;
+
+      .title {
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 258px auto 0;
+        padding-top: 15px;
+        text-align: center;
+        width: 552px;
+
+        .brand-name {
+          color: rgba(44, 45, 46, 1);
+          font-family: Georgia, "Times New Roman", Times, serif;
+          font-size: 58px;
+          line-height: 94px;
+          margin: 0;
+        }
+
+        a {
+          background-color: rgba(44, 45, 46, 1);
+          color: white;
+          display: inline-block;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 20px;
+          line-height: 40px;
+          margin-bottom: 29px;
+          text-decoration: none;
+          width: 214px;
+        }
+      }
+    }
+
+    .sub-title {
+      background-color: rgba(228, 228, 228, 1);
+      color: rgba(88, 88, 90, 1);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 13px;
+      letter-spacing: 3px;
+      line-height: 45px;
+      text-align: center;
+    }
+  }
+}
