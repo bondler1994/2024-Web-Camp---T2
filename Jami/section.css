@@ -39,11 +39,10 @@
 }
 
 .banner-main h2 a:hover {
-    background-color: var(--Color-grey);
-    opacity: 0.8;
-    color: var(--Color-dark);
+    background-color: #4e3829;
+    opacity: 0.7;
     font-weight: 500;
-
+    padding: 10px 15%;
 }
 
 .banner p {
@@ -96,3 +95,108 @@ hr{
 
 }
 
+
+.products-list img:hover{
+    opacity: 0.7;
+}
+
+
+footer{
+    background-color: var(--backgroundcolor-darkgrey);
+    padding: 90px 0  70px ;
+    color: var(--Color-grey);
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+.footer-inner{
+    text-align-last: justify;
+    width: 950px;
+    margin: 0 auto;
+}
+.footer-inner h4{
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+.footer-inner span{
+    display: block;
+}
+
+.copyright{
+    text-align-last: center;
+    margin-top: 70px ;
+}
+
+
+.subscribe{
+    width: 340px;
+    text-align-last: right;
+
+}
+
+.subscribe span{
+    text-align-last: left;
+
+}
+.subscribe input{
+    background-color: transparent;
+    border:1px solid var(--Color-white);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.subscribe input::placeholder{
+    color: var(--Color-white);
+    text-align-last: left;
+    font-size: 16px;
+
+}
+
+.subscribe a{
+    color: var(--Color-dark);
+    padding: 4px 10px;;
+    background-color: var(--Color-grey);
+    transition: 0.3s 0.1s;
+    margin-top: 8px;
+}
+
+.subscribe a:hover{
+    color: var(--Color-grey);
+    background-color: var(--Color-dark);
+}
+
+h4 span{
+    color: var(--Color-white);
+}
+
+.footer-inner span a{
+    color: var(--Color-grey);
+    text-decoration: underline;
+}
+
+.footer-inner h4:not(:nth-child(2)){
+    letter-spacing: 2px;
+}
+
+
+.icon{
+    display: block;
+    font-size: 22px;
+}
+
+.icon a{
+    color: var(--Color-grey);
+    font-size: 32px;
+    margin: 0 4px;
+}
+
+.icon,.subscribe input,.contact span:nth-child(1){
+    margin-top: 5px;
+}
+
+.contact span{
+    text-align-last: center;
+}
