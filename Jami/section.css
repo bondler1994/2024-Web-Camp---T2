@@ -199,4 +199,14 @@ h4 span{
 
 .contact span{
     text-align-last: center;
+
+}
+
+.copyright{
+    letter-spacing: 1.5px;
+}
+
+.footer-inner .copyright a{
+    text-decoration-color: var(--Color-dark);
+
 }
