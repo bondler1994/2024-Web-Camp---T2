@@ -40,6 +40,10 @@ footer {
 }
 
 .subscribe {
+    text-align-last: left;
+}
+
+.subscribe form {
     text-align-last: right;
 }
 
@@ -71,15 +75,18 @@ footer {
     opacity: 0.5;
 }
 
-.subscribe a {
-    padding: 4px 10px;
+.subscribe button {
+    padding: 9px 14px;
     margin-top: 8px;
     color: var(--Color-dark);
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    border: none;
     background-color: var(--Color-grey);
-    transition: 0.2s ease-out;
+    transition: all 0.2s ease-out 0s;
 }
 
-.subscribe a:active {
+.subscribe button:active {
     color: var(--Color-grey);
     background-color: var(--Color-dark);
 }
