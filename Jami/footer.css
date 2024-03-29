@@ -80,6 +80,7 @@ footer {
     border: none;
     background-color: var(--Color-grey);
     transition: all 0.2s ease-out 0s;
+    cursor: pointer;
 }
 
 .subscribe button:active {
