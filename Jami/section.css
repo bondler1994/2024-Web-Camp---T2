@@ -6,7 +6,8 @@ section{
 .banner-main {
     width: 100%;
     height: 664px;
-    padding: 2px 0;
+    padding-top: 286px;
+    box-sizing: border-box;
     background-image: url(./img/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,9 +15,9 @@ section{
 }
 
 .banner-main h2 {
-    width: 650px;
-    margin: 290px auto 0;
-    padding: 35px 0;
+    width: fit-content;
+    padding: 35px;
+    margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 65px;
     color: var(--Color-dark);
@@ -31,7 +32,10 @@ section{
 }
 
 .banner-main h2 a {
-    padding: 10px 50px;
+    display: block;
+    width: fit-content;
+    margin: 25px auto 0;
+    padding: 12px 60px;
     color: var(--Color-white);
     font-size: 20px;
     font-family: "Raleway", sans-serif;
