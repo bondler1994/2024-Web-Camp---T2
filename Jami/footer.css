@@ -91,7 +91,7 @@ footer {
 
 .contact a {
     display: block;
-    text-align-last: center;
+    /* text-align-last: center; */
     color: var(--Color-white);
     transition: 0.2s ease-out;
 }
