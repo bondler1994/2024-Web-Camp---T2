@@ -8,28 +8,31 @@ footer {
 .footer-inner {
     display: flex;
     justify-content: space-between;
+    width: fit-content;
     margin: 0 auto;
 }
 
 .footer-inner h4 {
+    display: inline-block;
     width: 373px;
+    vertical-align: top;
     font-weight: 400;
 }
 
 .footer-inner h4:not(:nth-child(2)) {
-    width: 25%;
     letter-spacing: 2px;
-    text-align: center;
+    text-align-last: center;
 }
 
 .social-media a {
-    margin: 0 7.5px;
-    font-size: 27px;
+    margin: 0 3px;
     letter-spacing: 0;
 }
 
 .social-media i {
+    padding: 6px;
     color: var(--Color-white);
+    font-size: 27px;
     transition: 0.2s ease-out;
 }
 
@@ -37,10 +40,13 @@ footer {
     color: var(--Color-dark);
 }
 
+.subscribe {
+    margin: 0 54px;
+}
+
 .subscribe form {
     display: flex;
     flex-direction: column;
-    align-items: end;
 }
 
 .subscribe input {
@@ -72,6 +78,7 @@ footer {
 .subscribe button {
     padding: 9px 14px;
     margin-top: 8px;
+    align-self: end;
     color: var(--Color-dark);
     font-size: 16px;
     font-family: Raleway, sans-serif;
