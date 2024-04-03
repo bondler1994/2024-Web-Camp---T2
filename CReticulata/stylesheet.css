@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 body {
   font-family: "Raleway", sans-serif;
@@ -59,6 +59,7 @@ header {
           font-size: 15px;
           padding: 10px;
           text-decoration: none;
+          transition: color 0.3s;
 
           &:hover {
             color: rgba(255, 255, 255, 1);
@@ -74,9 +75,11 @@ header {
   .shopping-cart {
     display: inline-block;
     height: 34px;
-    margin-left: 78px;
+    /* margin-left: 78px; */
     vertical-align: middle;
     width: 34px;
+    position: relative;
+    left: 78px;
 
     a {
       display: inline-block;
@@ -94,16 +97,19 @@ main {
       background-image: url("./img/cover.jpg");
       background-position: center;
       background-size: cover;
-      border: 1px solid rgba(0, 0, 0, 0);
+      /* border: 1px solid rgba(0, 0, 0, 0); */
       box-sizing: border-box;
       height: 606px;
       width: 100%;
 
       .title {
         background-color: rgba(255, 255, 255, 0.5);
-        margin: 258px auto 0;
+        /* margin: 258px auto 0; */
         padding-top: 15px;
+        position: relative;
+        left: calc((100% - 552px) / 2);
         text-align: center;
+        top: 258px;
         width: 552px;
 
         .brand-name {
@@ -123,9 +129,10 @@ main {
           margin-bottom: 29px;
           text-decoration: none;
           width: 214px;
+          transition: background-color 0.3s;
 
           &:hover {
-            background-color: rgba(44, 45, 46, 0.8);
+            background-color: rgba(44, 45, 46, 0.5);
           }
         }
       }
@@ -138,6 +145,9 @@ main {
       letter-spacing: 3px;
       line-height: 45px;
       text-align: center;
+      p {
+        margin: 0;
+      }
     }
   }
 
@@ -151,7 +161,8 @@ main {
       text-align: center;
     }
     .separating-line {
-      border-bottom: 1px solid rgba(140, 140, 141, 1);
+      border: 0 none transparent;
+      border-top: 1px solid rgba(140, 140, 141, 1);
       margin: 0 auto;
       width: 32px;
     }
@@ -327,7 +338,7 @@ footer {
       text-align: center;
       font-size: 12px;
 
-      p:nth-child(2) {
+      .phone {
         margin-top: 6px;
         margin-bottom: 6px;
       }
@@ -335,9 +346,10 @@ footer {
       .phone,
       .email {
         color: rgba(255, 255, 255, 1);
+        display: inline-block;
         font-size: 13px;
         letter-spacing: 0.1em;
-        margin: 0;
+        text-decoration: none;
       }
     }
   }
