@@ -1,0 +1,21 @@
+* {
+    outline: 1px solid red;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    /* text-align: center; */
+    padding-top: 100px;
+    min-width: 1000px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+    margin: 0;
+    padding: 0;
+}
