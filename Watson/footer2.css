@@ -1,0 +1,144 @@
+footer {
+    text-align: center;
+    margin-top: 85px;
+    padding: 80px 0 60px 0;
+}
+
+/* left */
+
+.footer_container {
+    margin: 0 auto;
+}
+
+.footer_left,
+.footer_middle,
+.footer_right,
+footer a:nth-child(1n + 1) {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.footer_left {
+    width: 150px;
+}
+
+.footer_left,
+.footer_left i {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 13.5px;
+    text-transform: uppercase;
+    color: #D2D2D2;
+}
+
+.footer_left i {
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.footer_left i:hover {
+    color: #D2D2D2;
+}
+
+footer nav {
+    width: 140px;
+    text-align-last: justify;
+}
+
+
+.footer_left p:first-child {
+    margin-bottom: 10px;
+}
+
+/* middle */
+
+.footer_middle {
+    margin: 0 140px 0 150px;
+    width: 330px;
+}
+
+footer label,
+footer input,
+footer button {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #D2D2D2;
+    text-transform: uppercase;
+    font-size: 13.5px;
+}
+
+input {
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #535151;
+    border: 1px solid #D2D2D2;
+    width: 330px;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    color: #D2D2D2;
+}
+
+button {
+    margin-top: 10px;
+    float: right;
+    text-transform: capitalize;
+    font-size: 13.5px;
+    width: 98px;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+/* right */
+
+.footer_right {
+    font-size: 0;
+    display: inline-block;
+    width: 160px;
+}
+
+.footer_right p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 13.5px;
+    color: #D2D2D2;
+
+}
+
+.footer_right a {
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+.footer_right>a {
+    margin-top: 10px;
+}
+
+.footer_right a:hover {
+    color: #D2D2D2;
+}
+
+/* below */
+
+.footer_below {
+    margin-top: 70px;
+    font-size: 13.5px;
+    letter-spacing: 2px;
+    color: #D2D2D2;
+    font-weight: bold;
+}
+
+.footer_below a {
+    color: #D2D2D2;
+    text-decoration: #292929;
+}
