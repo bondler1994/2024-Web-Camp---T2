@@ -3,7 +3,7 @@ main {
 }
 
 main section {
-  background: url(cover.jpg);
+  background: url(/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
